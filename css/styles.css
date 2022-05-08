@@ -11321,6 +11321,15 @@ textarea.form-control-lg {
   }
 }
 
+.mycontent-left {
+  border-right: 1px dashed #333;
+}
+
+/*Organizers*/
+.img-thumbnail{
+  width: 300px;
+  height: 300px;
+}
 /*
 style="object-fit: fill;
                 object-position: center;
