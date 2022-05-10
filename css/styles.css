@@ -62,6 +62,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
+  --blue-unica: rgba(46 85 148);
 }
 
 *,
@@ -490,6 +491,8 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  text-align: justify;
+  text-justify:inter-word;
 }
 
 .display-1 {
@@ -3942,6 +3945,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  font-size: 1.2rem;
   color: #0d6efd;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -4052,7 +4056,7 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 2rem !important;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -4074,6 +4078,8 @@ textarea.form-control-lg {
 .navbar-text {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  color: white !important;
+  font-size: 1.2rem !important;
 }
 
 .navbar-collapse {
@@ -11296,18 +11302,19 @@ textarea.form-control-lg {
 @media only screen and (min-width: 600px) {
   .d-block {
     object-fit: fill;
-                object-position: center;
-                overflow: hidden;
-                height:75vh;
+    object-position: center;
+    overflow: hidden;
+    height:57.625vh; 
   }
+  
 }
 
 @media only screen and (max-width: 600px) {
   .d-block {
     object-fit: fill;
-                object-position: center;
-                overflow: hidden;
-                height:30vh !important;
+    object-position: center;
+    overflow: hidden;
+    height:30vh !important;
   }
   .iconTitle{
     display: flex;
@@ -11316,9 +11323,37 @@ textarea.form-control-lg {
     align-content: center;
     flex-wrap: wrap;
   }
-  p{
+  p, .lead{
     text-align: center;
   }
+  .navbar-brand{
+    white-space: normal !important;
+    text-align: center;
+    margin-right: 0rem !important;
+  }
+  .iconLauncher{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+.iconLauncher{
+  width: 100px;
+  height: 100px;
+}
+
+.navbar-unica{
+  background-color: var(--blue-unica)!important;
+}
+
+.navbar-text{
+  color: white;
+}
+
+.nav-link:hover{
+  color: white!important;
 }
 
 .mycontent-left {
