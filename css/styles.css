@@ -11360,6 +11360,10 @@ textarea.form-control-lg {
   border-right: 1px dashed #333;
 }
 
+.footer-unica{
+  background-color: var(--blue-unica)!important;
+}
+
 /*Organizers*/
 .img-thumbnail{
   width: 300px;
