@@ -11372,6 +11372,16 @@ textarea.form-control-lg {
   height: 300px;
 }
 
+.margin-organizers{
+  margin:20px;
+}
+
+.unica-circle{
+  border: 5px solid var(--blue-unica);
+  box-shadow: 0 0 0 5px var(--red-unica), 0 0 0 10px #fff;
+  border-radius: 50%;
+}
+
 /*
 style="object-fit: fill;
                 object-position: center;
