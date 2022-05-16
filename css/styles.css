@@ -11382,6 +11382,17 @@ textarea.form-control-lg {
   border-radius: 50%;
 }
 
+/*Sponsors*/
+.sponsors-align-items{
+  align-items: center;
+}
+
+.max-height-width{
+  
+  width: 100%;
+
+}
+
 /*
 style="object-fit: fill;
                 object-position: center;
