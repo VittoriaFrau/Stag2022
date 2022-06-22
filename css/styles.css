@@ -11394,6 +11394,12 @@ textarea.form-control-lg {
   height: 200px;
 }
 
+.max-height-width2{
+  object-fit: contain;
+  width: 100%;
+  height: 300px;
+}
+
 /*
 style="object-fit: fill;
                 object-position: center;
