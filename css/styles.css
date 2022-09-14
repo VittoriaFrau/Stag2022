@@ -11363,9 +11363,7 @@ textarea.form-control-lg {
   border-right: 1px dashed #333;
 }
 
-.footer-unica{
-  background-color: var(--blue-unica)!important;
-}
+
 
 /*Organizers*/
 .img-thumbnail{
@@ -11404,8 +11402,29 @@ textarea.form-control-lg {
   height: 300px;
 }
 
-/*
-style="object-fit: fill;
-                object-position: center;
-                overflow: hidden;
-                height:75vh;"*/
+
+.footer-unica{
+  background-color: var(--blue-unica)!important;
+}
+
+@media (max-width: 768px) {
+ 
+  .footer-unica-visibility-H{
+    display: none;  
+  }
+
+  .footer-unica-visibility-V{  
+  }
+}
+
+
+@media (min-width: 768px) {
+ 
+  .footer-unica-visibility-H{
+    
+  }
+
+  .footer-unica-visibility-V{  
+    display: none;  
+  }
+}
